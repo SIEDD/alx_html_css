@@ -225,7 +225,7 @@
 
 /* Added selector for .nav-item + .nav-item inside nav class */
 .nav .nav-item + .nav-item {
-  margin: var(--nav-item-spacing); /* Added margin-left */
+  margin-left: var(--nav-item-margin);
 }
 
   /*.nav {
