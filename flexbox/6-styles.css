@@ -203,8 +203,32 @@
   /* Navbar
       ============================= */
   
-  
-  .nav {
+  /* Navbar ============================= */
+
+/* Updated .nav class selector */
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: flex; /* Added display: flex */
+}
+
+/* Updated .nav .nav-item selector */
+.nav .nav-item {
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  /* Removed display: flex */
+}
+
+/* Added selector for .nav-item + .nav-item inside nav class */
+.nav .nav-item + .nav-item {
+  margin-left: var(--nav-item-spacing); /* Added margin-left */
+}
+
+  /*.nav {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -221,7 +245,7 @@
   }
   .nav .nav-item + .nav-item {
     margin-left: var(--nav-item-spacing);
-  }
+  }=======*/
   
   .nav .nav-link {
     display: block;
