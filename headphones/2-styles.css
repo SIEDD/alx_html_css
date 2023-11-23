@@ -280,6 +280,24 @@
     margin: 0 auto;
     
   }
+/*our results*/
+  .our-results{
+    background-image: url('images/headphones_hero_2.jpg');
+    color: #fff;
+    font-family: 'Georgia', serif;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 200px; 
+  }
+  .our-results h2{
+      font-size: 2em;
+      margin-top: 50px;
+      margin-bottom: 40px;  
+  }
+  
+  .our-results p{
+    margin-bottom: 40px;
+  }
   
   
   
