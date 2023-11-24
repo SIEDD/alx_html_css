@@ -1,1 +1,157 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .top{
+    background-image: url('images/Object.png'); /* Adjust the path to your image */
+  background-size: cover;
+  color: #fff; /* Set text color to white for better visibility */
+}
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  header img {
+    margin-left: 20px; /* Adjust as needed */
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+a{
+    color: #f8f8f8;
+}
+h1{
+    margin-top: 200px;
+    font-size: 550%;
+}
+button{
+    margin-top: 25px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: purple;
+    padding: 20px;
+    border: none;
+    font-size: 18px;
 
+}
+.learn{
+    margin-top: 220px;
+    margin-bottom: 40px;
+}
+.most{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(228, 47, 228);
+    padding: 70px;
+    color: #fff;
+}
+.row{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .popular{
+   text-align: center;
+    
+  }
+  .tutorials{
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+.membership{
+    text-align: center;
+    background-color: rgb(12, 7, 53);
+    color: #fff;
+    padding: 50px;
+}
+.free-membership{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.faq{
+  text-align: center;
+}
+
+.fa{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    
+}
+
+.how1,
+.how2 {
+  display: flex;
+  justify-content: space-between; /* Space between the two columns */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.how1 div,
+.how2 div {
+  width: 48%; /* Set the width of each column */
+  margin-bottom: 20px; /* Add space between the items */
+  text-align: left; /* Align text to the left */
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px; /
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.icon-link {
+  margin-right: 15px; 
+}
+
+.icon-link img {
+  width: 30px; 
+  height: 30px; 
+}
+
+
+
+
+/* media query for responsiveness */
+@media (max-width: 768px) {
+  .how1 div,
+  .how2 div {
+    width: 100%; 
+  }
+}
