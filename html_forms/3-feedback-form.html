@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h2>Feedback Form</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <p>Feedback:</p>
+            <label><input type="checkbox" name="feedback[]" value="excellent"> Excellent</label><br>
+            <label><input type="checkbox" name="feedback[]" value="good"> Good</label><br>
+            <label><input type="checkbox" name="feedback[]" value="average"> Average</label><br>
+            <label><input type="checkbox" name="feedback[]" value="poor"> Poor</label><br>
+        </div>
+        <div>
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.txt" required>
+        </div>
+        <div>
+            <button type="submit">Submit Feedback</button>
+        </div>
+    </form>
+</body>
+</html>
 
